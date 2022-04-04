@@ -2,18 +2,16 @@
 
 @section('content')
     <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-red-800 text-5xl font-bold text-shadow-md  pb-14">
-                    Movie.DKIT
-                </h1>
-                <a 
-                    href="/blog"
-                    class="text-center  text-red-800  hover:underline     font-bold text-xl uppercase">
-                    Read More
-                </a>
+            <div class="flex text-gray-100 pt-10">
+                <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
+
+                    <a 
+                        href="/blog"
+                        class=" text-center bg-blue-500 py-3 px-8 rounded-3xl text-white-600 hover:underline font-bold text-xl uppercase">
+                        Read More
+                    </a>
+                </div>
             </div>
-        </div>
     </div>
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-blie-200">
