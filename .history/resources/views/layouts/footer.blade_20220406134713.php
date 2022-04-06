@@ -63,8 +63,8 @@
                 Latest posts
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-                <li class="pb-1 hover:underline">
+            <ul class="py-4 sm:text-s pt-4 text-gray-400 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Why we love tech
                     </a>
@@ -74,12 +74,12 @@
                         Why we love design
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Why to use Laravel
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Why PHP is the best
                     </a>
