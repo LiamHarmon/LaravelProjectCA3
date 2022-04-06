@@ -16,25 +16,25 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-blie-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img src="http://cdn.onlinewebfonts.com/svg/img_555444.png" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Struggling to be a better Gamer?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                Check out all the latests tips and tricks from gamers around the world to help you improve your game.
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                Gamers from around the world have shared their own unique tips and tricks for all sorts of games. Want to share yours?
             </p>
 
             <a 
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                class="text-center bg-orange-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
                 Find Out More
             </a>
         </div>
@@ -42,20 +42,20 @@
 
     <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+            Want to be an expert in...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            First Person Shooters
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            Sim Racing
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Strategic Plays
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Competitive Gaming
         </span>
     </div>
 
@@ -69,7 +69,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            Recent posts from gamers all across the world will appear here!
         </p>
     </div>
 
