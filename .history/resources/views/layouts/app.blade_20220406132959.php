@@ -7,8 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Games&Gamers</title>
-    <link rel="icon" type="image/png" href="images/mojangLogo.png">
+    <title>{{ config('app.name', 'Blog') }}</title>
+    <link rel="icon" type="image/png" href="myImage.png">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     
