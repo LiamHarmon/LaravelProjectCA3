@@ -1,12 +1,12 @@
 <footer class="bg-black py-20 mt-20">
     <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100 ">
+            <h3 class="text-l sm:font-bold text-gray-100 hover:underline">
                 Pages
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1 hover:underline">
+            <ul class="py-4 sm:text-s pt-4 text-gray-400 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Home
                     </a>
@@ -16,12 +16,12 @@
                         Blog
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/login">
                         Login
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/register">
                         Register
                     </a>
@@ -34,23 +34,23 @@
                 Find Us
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-                <li class="pb-1 hover:underline">
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
                     <a href="/">
                         What we do
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Address
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Phone
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Contact
                     </a>
@@ -63,23 +63,23 @@
                 Latest posts
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400 ">
-                <li class="pb-1 hover:underline">
+            <ul class="py-4 sm:text-s pt-4 text-gray-400">
+                <li class="pb-1">
                     <a href="/">
                         Why we love tech
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Why we love design
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Why to use Laravel
                     </a>
                 </li>
-                <li class="pb-1 hover:underline">
+                <li class="pb-1">
                     <a href="/">
                         Why PHP is the best
                     </a>
