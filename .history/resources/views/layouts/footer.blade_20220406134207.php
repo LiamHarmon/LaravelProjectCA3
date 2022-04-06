@@ -1,5 +1,5 @@
-<footer class="bg-black py-20 mt-20">
-    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
+<footer class="bg-gray-400 py-20 mt-20">
+    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-black">
         <div>
             <h3 class="text-l sm:font-bold text-gray-100">
                 Pages
