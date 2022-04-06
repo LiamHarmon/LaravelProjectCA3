@@ -19,7 +19,7 @@
             <img src="http://cdn.onlinewebfonts.com/svg/img_555444.png" width="700" alt="">
         </div>
 
-        <div class="m-auto sm:m-auto text-left w-4/5 block bg-clip-border p-6 border-4  border-dashed">
+        <div class="m-auto sm:m-auto text-left w-4/5 block border-4  border-dashed">
             <h2 class="text-3xl font-extrabold text-gray-600">
                 Struggling to be a better Gamer?
             </h2>
@@ -39,8 +39,8 @@
             </a>
         </div>
     </div>
-  
-    <div class="text-center bg-orange-500 p-15 text-white bg-repeat-x bg-center" style="background-image: url(images/patterBg.jpg)">
+
+    <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             Want to be an expert in...
         </h2>

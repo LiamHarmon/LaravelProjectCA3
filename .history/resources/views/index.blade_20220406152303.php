@@ -40,7 +40,7 @@
         </div>
     </div>
   
-    <div class="text-center bg-orange-500 p-15 text-white bg-repeat-x bg-center" style="background-image: url(images/patterBg.jpg)">
+    <div class="text-center bg-orange-500 p-15 text-black bg-repeat-x bg-center" style="background-image: url(images/patterBg.jpg)">
         <h2 class="text-2xl pb-5 text-l"> 
             Want to be an expert in...
         </h2>

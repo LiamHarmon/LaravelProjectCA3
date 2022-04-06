@@ -24,11 +24,11 @@
                 Struggling to be a better Gamer?
             </h2>
             
-            <p class=" py-8 text-gray-500 text-s    ">
+            <p class=" py-8 text-gray-500 text-s bg-clip-border p-6 border-4  border-dashed">
                 Check out all the latests tips and tricks from gamers around the world to help you improve your game.
             </p>
 
-            <p class="font-extrabold text-gray-600 text-s pb-9">
+            <p class="font-extrabold text-gray-600 text-s pb-9 bg-clip-border p-6 border-4  border-dashed">
                 Gamers from around the world have shared their own unique tips and tricks for all sorts of games. Want to share yours?
             </p>
 
@@ -39,8 +39,8 @@
             </a>
         </div>
     </div>
-  
-    <div class="text-center bg-orange-500 p-15 text-white bg-repeat-x bg-center" style="background-image: url(images/patterBg.jpg)">
+
+    <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             Want to be an expert in...
         </h2>
