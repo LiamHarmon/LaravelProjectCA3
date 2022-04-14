@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="w-4/5 m-auto text-center">
-    <div class="py-15 border-b border-gray-200">
+    <div class="py-15 border-b border-black-500">
         <h1 class="text-6xl">
             Gaming Posts
         </h1>
@@ -11,7 +11,7 @@
 
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
-        <p class="w-2/6 mb-4 text-gray-50 bg-blue-500 rounded-2xl py-4">
+        <p class="w-2/6 mb-4 text-white text-center bg-blue-500 rounded-3xl py-3">
             {{ session()->get('message') }}
         </p>
     </div>
@@ -21,7 +21,7 @@
     <div class="pt-15 w-4/5 m-auto">
         <a 
             href="/blog/create"
-            class="text-center bg-orange-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
+            class="text-center bg-green-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
             Create post
         </a>
     </div>
@@ -45,7 +45,7 @@
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/blog/{{ $post->slug }}" class="text-center bg-orange-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
                 Keep Reading
             </a>
 
@@ -53,7 +53,7 @@
                 <span class="float-right">
                     <a 
                         href="/blog/{{ $post->slug }}/edit"
-                        class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
+                        class="text-center text-blue-500 hover:underline font-bold text-xl uppercase">
                         Edit
                     </a>
                 </span>
@@ -66,7 +66,7 @@
                         @method('delete')
 
                         <button
-                            class="text-red-500 pr-3"
+                            class="text-center text-red-500 mr-5 hover:underline font-bold text-xl uppercase"
                             type="submit">
                             Delete
                         </button>
