@@ -20,23 +20,23 @@
         <header class="bg-black py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-white  no-underline">
+                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100  no-underline">
                         Software Gamer Nurds
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-300 te  xt-sm sm:text-base">
-                    <a class="no-underline hover:underline text-white" href="/">Home</a>
-                    <a class="no-underline hover:underline text-white" href="/blog">Blog</a>
+                    <a class="no-underline hover:underline" href="/">Home</a>
+                    <a class="no-underline hover:underline" href="/blog">Blog</a>
                     @guest
-                        <a class="no-underline hover:underline text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline text-white" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline text-white"
+                           class="no-underline hover:underline"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
