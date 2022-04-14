@@ -46,16 +46,14 @@
                     <span class="">
                         Select a image
                     </span>
-         
                     <input 
                         type="file"
                         name="image"
                         class="hidden"
-                        {{ asset('images/' . $post->image_path) }}>
-                      
+                        {{ asset('images/' . $post->file) }}>
                 </label>
             </div>
-       
+            @endforeach
         <button    
             type="submit"
             class="text-center mt-10 bg-orange-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">

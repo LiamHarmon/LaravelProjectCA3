@@ -40,22 +40,18 @@
             placeholder="Description..."
             class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $post->description }}</textarea> 
 
-           
+
             <div class="bg-grey-lighter pt-15">
                 <label class="text-center mt-10 bg-gray-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
                     <span class="">
                         Select a image
                     </span>
-         
                     <input 
                         type="file"
                         name="image"
-                        class="hidden"
-                        {{ asset('images/' . $post->image_path) }}>
-                      
+                        class="hidden">
                 </label>
             </div>
-       
         <button    
             type="submit"
             class="text-center mt-10 bg-orange-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">

@@ -46,13 +46,13 @@
                     <span class="">
                         Select a image
                     </span>
-         
+                    @foreach ($posts as $post)
                     <input 
                         type="file"
                         name="image"
                         class="hidden"
                         {{ asset('images/' . $post->image_path) }}>
-                      
+                        @endforeach
                 </label>
             </div>
        

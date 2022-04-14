@@ -128,6 +128,5 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
-    
 }
 

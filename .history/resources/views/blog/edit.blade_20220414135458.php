@@ -51,8 +51,9 @@
                         type="file"
                         name="image"
                         class="hidden"
+                        @foreach ($posts as $post)
                         {{ asset('images/' . $post->image_path) }}>
-                      
+                        @endforeach
                 </label>
             </div>
        
