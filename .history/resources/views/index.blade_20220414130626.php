@@ -86,7 +86,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/callofduty.jpg" class="d-block w-100" alt="...">
+      <img src="images/patterBg.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
       <h5>Call of Duty</h5>
         <p>  Call of Duty: Black Ops Cold War is set during the Cold War in the early 1980s. The campaign follows Green Beret turned CIA SAD/SOG operative Russell Adler (Bruce Thomas) and his mission to stop an international espionage threat named Perseus (William Salyers) in 1981.
@@ -94,10 +94,10 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/eldenring.jpg" class="d-block w-100" alt="...">
+      <img src="..." class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Elden Ring </h5>
-        <p>Elden Ring is an action role-playing game played in a third-person perspective with gameplay focusing on combat and exploration; it features elements similar to those found in other games developed by FromSoftware, such as the Souls series, Bloodborne, and Sekiro: Shadows Die Twice.</p>
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">

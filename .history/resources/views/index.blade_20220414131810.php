@@ -94,7 +94,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/eldenring.jpg" class="d-block w-100" alt="...">
+      <img src="images/eldenring.jpg" class="d-block w-400" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Elden Ring </h5>
         <p>Elden Ring is an action role-playing game played in a third-person perspective with gameplay focusing on combat and exploration; it features elements similar to those found in other games developed by FromSoftware, such as the Souls series, Bloodborne, and Sekiro: Shadows Die Twice.</p>
