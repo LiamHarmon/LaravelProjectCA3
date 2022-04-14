@@ -75,8 +75,8 @@
         </p>
     </div>
 
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+    <div class="sm:grid grid-cols-1 w-25 m-auto">
+        <div class="flex bg-white text-gray-100 pt-10 ">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -101,10 +101,10 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="images/valorant.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Valorant</h5>
+        <p>Valorant is a tactical shooting game involving two teams with 5 players in each team. Every player can sign in and play remotely from anywhere in the world. Every game has 25 rounds and the team that wins 13 of them first wins the game. Players can choose their in-game characters called agents at the start of the game.</p>
       </div>
     </div>
   </div>
@@ -117,7 +117,6 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-            </div>
         </div>
         <div>
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
