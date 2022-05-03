@@ -33,3 +33,7 @@ php artisan migrate
 ## Blog Page
 * We added a Search Bar to filter through the various different types of Blogs. This allows users to find a specific Blog.
 ![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/blogpage.png "Blog Page")
+
+## Login Page
+* We added Google Login to the login and register page to allow users to sign up to the website via Google to by simply registering/logging in.
+![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/loginpage.png "Login Page")
