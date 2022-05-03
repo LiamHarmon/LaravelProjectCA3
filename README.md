@@ -25,3 +25,7 @@ php artisan migrate
 ***
 ## Home Page 
 ![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/homepage.png "Laravel Home Page")
+
+## Recent Post Added
+* For this we added a Slide Show to show recent posts added to the Blog Page
+![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/recentposts.png "Recent Post Image")
