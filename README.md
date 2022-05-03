@@ -29,3 +29,7 @@ php artisan migrate
 ## Recent Post Added
 * For this we added a Slide Show to show recent posts added to the Blog Page
 ![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/recentposts.png "Recent Post Image")
+
+## Blog Page
+* We added a Search Bar to filter through the various different types of Blogs. This allows users to find a specific Blog.
+![alt text]( "Blog Page")
