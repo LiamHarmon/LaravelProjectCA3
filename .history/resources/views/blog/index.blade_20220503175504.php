@@ -19,28 +19,20 @@
 
 @if (Auth::check())
 
-<div class="flex items-baseline h-56 grid grid-cols-2 gap-4 content-evenly ">
-    <div class="py-4 pt-30 m-auto">   
+    <div class="pt-15 w-4/5 m-auto">
         <a 
             href="/blog/create"
             class="text-center bg-green-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
             Create post
         </a>
-    </div> 
-   
-    <div class="py-12">   <form class="flex flex-nowrap " method="post" action="{{ url('/search_post') }}">
+    </div>
+
+    <form class="flex flex-nowrap " method="post" action="{{ url('/search_post') }}">
         @csrf
-         <input class="  w-80 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm 
+         <input class="mt-1 block w-300 px-3 py-2 bg-white border"
          type="search" placeholder="Search" name="search" aria-label="Search">
          <button class="text-center bg-green-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase"type="submit" name="submit">Search</button>
-     </form></div>
-  </div>
-
-
-
- 
-
- 
+     </form>
 
 @endif
 {{-- <form class="flex-none w-14 " method="post" action="{{ url('/search_post') }}">
