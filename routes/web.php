@@ -25,6 +25,6 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 
 Route::post('/search_post',[PostsController::class,'search']);
 
-Route::get('/redirect',  'App\Http\Controllers\SocialController@redirect');
-
-Route::get('/callback',  'App\Http\Controllers\SocialController@callback');
+// Google login
+Route::get('/redirect', [App\Http\Controllers\Auth\LoginController::class, 'redirectToGoogle'])->name('login.google');
+Route::get('/callback', [App\Http\Controllers\Auth\LoginController::class, 'handleGoogleCallback']);
