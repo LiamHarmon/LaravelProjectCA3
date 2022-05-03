@@ -37,3 +37,7 @@ php artisan migrate
 ## Login Page
 * We added Google Login to the login and register page to allow users to sign up to the website via Google to by simply registering/logging in.
 ![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/loginpage.png "Login Page")
+
+***
+## Link to YouTube Video
+[View Video HERE!](https://youtu.be/Tcf4ajTbnPU)
