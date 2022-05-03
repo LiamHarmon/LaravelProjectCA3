@@ -24,3 +24,7 @@ Auth::routes();
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::post('/search_post',[PostsController::class,'search']);
+
+Route::get('/redirect',  'App\Http\Controllers\SocialController@redirect');
+
+Route::get('/callback',  'App\Http\Controllers\SocialController@callback');

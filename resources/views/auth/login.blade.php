@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<script src="https://kit.fontawesome.com/744ea8686f.js" crossorigin="anonymous"></script>
 @section('content')
 <main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10">
     <div class="flex">
@@ -74,6 +74,15 @@
                             </a>
                         </p>
                         @endif
+                    </div>
+
+                    <div>
+                        <div class="flex flex-wrap">
+                            <button type="button"class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline bg-orange-500 text-white hover:underline sm:py-4">
+                            <a href=' {{ url('/redirect') }}'>
+                                <i class="fa-brands fa-google mr-2"></i>
+                                Login With Google
+                            </button>
                     </div>
                 </form>
 
