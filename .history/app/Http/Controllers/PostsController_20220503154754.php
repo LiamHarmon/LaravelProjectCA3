@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use DB;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use Cviebrock\EloquentSluggable\Services\SlugService;
+
 class PostsController extends Controller
 {
  
@@ -129,8 +130,10 @@ class PostsController extends Controller
             
     }
     public function search(Request $request){
-        $posts = Post::where('title', 'like', '%' .$request->search . '%')->get();
+        $posts = DB::table('posts')
+    ->where('title', 'like', '%' .$request->search . '%')->get();
     return view('blog.search_post',compact('posts'));
     }
+    
 }
 

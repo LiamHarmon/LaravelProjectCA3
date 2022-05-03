@@ -1,17 +1,33 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="w-4/5 m-auto text-center">
-    <div class="py-15 border-b border-black-500">
+    <div class="py-15 border-b border-gray-200">
         <h1 class="text-6xl">
-            Gaming Posts
+            Search Result
         </h1>
     </div>
 </div>
 
+<form action="/search" method="POST" role="search">
+    {{ csrf_field() }}
+    <div class="input-group">
+        <input type="text" class="form-control" name="q"
+            placeholder="Search Post"> <span class="input-group-btn">
+            <button type="submit" class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+        </span>
+    </div>
+<form class="d-flex" method="post" action="{{ url('/search_post') }}">
+    <input class="form-control me-2" type="search" placeholder="Search" name="search" aria-label="Search">
+    <button class="btn btn-dark"type="submit" name="submit">Search</button>
+</form>
+
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
-        <p class="w-2/6 mb-4 text-white text-center bg-blue-500 rounded-3xl py-3">
+        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
             {{ session()->get('message') }}
         </p>
     </div>
@@ -21,20 +37,16 @@
     <div class="pt-15 w-4/5 m-auto">
         <a 
             href="/blog/create"
-            class="text-center bg-green-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
+            class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
             Create post
         </a>
     </div>
 @endif
-<form class="d-flex" method="post" action="{{ url('/search_post') }}">
-   @csrf
-    <input class="form-control me-2" type="search" placeholder="Search" name="search" aria-label="Search">
-    <button class="btn btn-dark"type="submit" name="submit">Search</button>
-</form>
+
 @foreach ($posts as $post)
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200 ">
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="{{ asset('images/' . $post->image_path) }}" width="350px" alt="">
+            <img src="{{ asset('images/' . $post->image_path) }}" alt="">
         </div>
         <div>
             <h2 class="text-gray-700 font-bold text-5xl pb-4">
@@ -49,7 +61,7 @@
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="text-center bg-orange-500 py-3 px-8 rounded-3xl text-white hover:underline font-bold text-xl uppercase">
+            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
 
@@ -57,7 +69,7 @@
                 <span class="float-right">
                     <a 
                         href="/blog/{{ $post->slug }}/edit"
-                        class="text-center text-blue-500 hover:underline font-bold text-xl uppercase">
+                        class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
                         Edit
                     </a>
                 </span>
@@ -70,7 +82,7 @@
                         @method('delete')
 
                         <button
-                            class="text-center text-red-500 mr-5 hover:underline font-bold text-xl uppercase"
+                            class="text-red-500 pr-3"
                             type="submit">
                             Delete
                         </button>
