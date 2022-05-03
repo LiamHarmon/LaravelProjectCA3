@@ -40,4 +40,4 @@ php artisan migrate
 
 ***
 ## Link to YouTube Video
-[View Video HERE!](https://youtu.be/Tcf4ajTbnPU)
+[View Video HERE, LIKE and SUBSCRIBE to see more!](https://youtu.be/Tcf4ajTbnPU)
