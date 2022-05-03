@@ -24,3 +24,4 @@ php artisan migrate
 ```
 ***
 ## Home Page 
+![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/homepage.png "Laravel Home Page")
