@@ -32,4 +32,4 @@ php artisan migrate
 
 ## Blog Page
 * We added a Search Bar to filter through the various different types of Blogs. This allows users to find a specific Blog.
-![alt text]( "Blog Page")
+![alt text](https://github.com/LiamHarmon/LaravelProjectCA3/blob/main/public/images/blogpage.png "Blog Page")
